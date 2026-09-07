@@ -1,0 +1,27 @@
+list = [1,2,3,4,5]
+list.append(6)
+print(list)
+list.insert(1,9)
+print(list)
+list.remove(3)
+print(list)
+list.pop(5)
+print(list)
+list.sort()
+print(list)
+
+tup = (1,2,3,4,5,2,9)
+print(tup.count(2))
+print(tup.index(9))
+
+dict = {
+    'a':1,
+    'b':2,
+    'c':3
+}
+dict ['b']=7
+print(dict)
+dict['d']=4
+print(dict)
+dict.pop('a')
+print(dict)
